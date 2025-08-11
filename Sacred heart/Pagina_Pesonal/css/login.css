@@ -1,0 +1,112 @@
+#captura3{
+    margin:200px;
+    font-size: 25px;
+}
+
+#captura4{
+    
+    font-family: italic;
+    font-size: 70px;
+    vertical-align: top;
+   
+ 
+}
+
+#captura0{
+    margin:10px;
+    font-family: italic;
+    font-size: 70px;
+}
+
+
+body{
+    background-size: cover; 
+    margin: 0px auto 100px;
+    width: 200px; /*ancho*/
+    height: 50px;
+    padding: 10px;
+    padding-left: 150px;
+    background-image: url(img.css/nombre.jpeg);
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+
+
+input{
+    border-radius: 15px;
+    border: 2px black;
+    background-color: white ;
+    height: 50px;
+    width: 50px;
+}
+
+
+/* Contenedor del formulario */
+form {
+
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    max-width: 400px;
+}
+
+/* Estilo de los campos del formulario */
+form input[type="text"],
+form input[type="submit"],
+form input[type="text"],
+form input[type="password"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px 0;
+    border:2px solid rgb(133, 193, 233);
+    border-radius: 5px;
+}
+
+
+/* Estilo del botón de envío */
+form input[type="submit"] {
+    background-color: #5dade2;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+}
+
+.ima{
+    width: 500px; height: 500px;
+    position: absolute;
+    top: 0px; left: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    scale: 60%;
+}
+
+
+
+<style>
+        .login-container {
+            background-color: pink;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+            max-width: 400px;
+            width: 100%;
+        }
+        .logo {
+            width: 100px;
+            height: auto;
+        }
+        .background-image {
+            background-image: url('img/2.jpg'); /* Cambia por tu imagen de fondo */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+        }
+    </style>

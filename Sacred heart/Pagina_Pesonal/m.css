@@ -1,0 +1,80 @@
+body{
+   background-image: url(img.css/farmacia.jpeg);
+background-repeat: no-repeat;
+background-attachment: cover;
+color: black;
+font-family: arial;
+font-size: 30px;
+}
+
+
+
+/* MENU */
+.dropdown{
+    display: inline-block;
+    position: relative;
+  
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    font-size: 20px;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+   
+
+}
+
+.dropdown-content a{
+    display: block;
+
+    padding: 5px;
+    text-decoration: none;
+    color: rgb(13, 13, 13);
+    background-color: rgb(187, 185, 187);
+
+}
+
+.dropdown-content a:hover{
+    background-color: white;
+    color: rgb(12, 12, 12);
+
+    
+
+}
+button{
+    color: black;
+ background-color: rgb(248, 250, 251);
+    font-size: 30px;
+    border-color: #80f2ff ;
+    border-radius: 5%;
+
+
+}
+
+.menu{
+ 
+    background-color: blue;
+    display:inline-flex;
+    color: white;
+}
+
+.l{
+    color: white;
+}
+input{
+    border-radius: 20px;
+    border: 1px solid #80ff88;
+    background-color: #d5f7bf ;
+}
+
+.mar{
+    color: rgb(219, 14, 144);
+    padding-top: 600px;
+}

@@ -1,0 +1,43 @@
+body{
+    background-image: url(img.css/fondointro.jpg);
+  background-size: cover;
+}
+
+ table {
+            width: 70%;
+            opacity: 0.9;
+            border-radius: 10px;
+        }
+
+
+label{
+
+	margin:10px;
+	font-family: italic;
+	font-size: 15px;
+	font-size: 18px;
+	font-family: arial;
+}
+
+
+
+.a{
+	width: 600px; height: auto;
+	border: 10px;
+	border-radius: 10px;
+	margin: 1px 1px 1px 1px;
+	color: #006600;
+	font-family: raleway;
+	font-size: 10px;
+	box-shadow: 5px 5px 10px #000000;
+}
+
+select{
+	border-radius: 4px;
+	background-color: white;
+	padding: 1px 1px;
+	text-align: center;
+	font-family: arial;
+	font-size: 16px;
+}
+
